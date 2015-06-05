@@ -1,32 +1,22 @@
-#Grove_Driver_based_on_SULI2
+Grove Drivers has been ported:
+------------------------------
 
+####I2C device
+* grove_accelerometer
+* grove_gyroscope
+* grove_compass
+* grove_barometer
+* grove_digital_light
+* grove_heartrate
 
-##Grove Drivers has been ported:
+####UART device
+* grove_fingerprint
 
-###I2C device
-*grove_accelerometer
-*grove_gyroscope
-*grove_compass
-*grove_barometer
-*grove_digital_light
-*grove_heartrate
+####Digital device
+* grove_temp_hum
 
-###UART device
-*grove_fingerprint
-
-###Digital device
-*grove_temp_hum
-
-###Analog device
-*grove_moisture
-
-
-
-
-
-
-
-
+####Analog device
+* grove_moisture
 
 
 
