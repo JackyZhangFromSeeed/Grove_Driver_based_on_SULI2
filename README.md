@@ -1,7 +1,7 @@
 Grove Drivers has been ported:
 ------------------------------
 
-##I2C device
+###I2C device
 * grove_accelerometer
 * grove_gyroscope
 * grove_compass
@@ -9,13 +9,13 @@ Grove Drivers has been ported:
 * grove_digital_light
 * grove_heartrate
 
-##UART device
+###UART device
 * grove_fingerprint
 
-##Digital device
+###Digital device
 * grove_temp_hum
 
-##Analog device
+###Analog device
 * grove_moisture
 
 
