@@ -1,8 +1,6 @@
-
-Grove_Driver_based_on_SULI2
-==============================
 Grove Drivers has been ported:
 ------------------------------
+
 ##I2C device
 * grove_accelerometer
 * grove_gyroscope
