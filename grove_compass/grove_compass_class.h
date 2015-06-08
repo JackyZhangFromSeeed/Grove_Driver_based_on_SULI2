@@ -8,6 +8,7 @@
 
 //GROVE_NAME        "Grove_Compass"
 //IF_TYPE           I2C
+//IMAGE_URL         http://www.seeedstudio.com/wiki/File:3_axis_compass.jpg
 
 class GroveCompass
 {
@@ -16,7 +17,6 @@ public:
 	bool write_setup(void);
     bool read_compass_xyz(float *cx, float *cy, float *cz);
     bool read_compass_heading(float *heading);
-    
 
 private:
     I2C_T *i2c;

@@ -7,6 +7,7 @@
 #include "suli2.h"
 
 #define HMC5883L_ADDRESS (0x1E<<1)
+
 #define CONFIGURATION_REGISTERA 0x00
 #define CONFIGURATION_REGISTERB 0x01
 #define MODE_REGISTER 0x02

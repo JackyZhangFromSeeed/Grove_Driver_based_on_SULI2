@@ -53,6 +53,8 @@
 
 #define DEFAULTTIMEOUT 5000  // milliseconds
 
+#define CMD_LENGTH 20
+
 void grove_fingerprint_init(UART_T *uart, int pintx, int pinrx);
 bool grove_fingerprint_write_setup(UART_T *uart);
 bool grove_fingerprint_verifyPassword(UART_T *uart);
@@ -65,10 +67,5 @@ bool grove_fingerprint_emptyDatabase(UART_T *uart, uint8_t *res);
 bool grove_fingerprint_fingerFastSearch(UART_T *uart, uint8_t *res);
 bool grove_fingerprint_getTemplateCount(UART_T *uart, uint8_t *res);
 
-
-
-
 #endif
-
-
 

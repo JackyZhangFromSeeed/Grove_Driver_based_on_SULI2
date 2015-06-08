@@ -13,9 +13,9 @@
 
 
 
-void grove_moisture_init(ANALOG_T *analog, int pinanalog)
+void grove_moisture_init(ANALOG_T *analog, int pin)
 {
-	suli_analog_init(analog, pinanalog);
+	suli_analog_init(analog, pin);
 }
 
 bool grove_moisture_write_setup(ANALOG_T *analog)

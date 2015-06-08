@@ -7,6 +7,7 @@
 #include "suli2.h"
 
 #define GYRO_ADDRESS (0x68<<1)
+
 // ITG3200 Register Defines
 #define ITG3200_WHO		0x00
 #define	ITG3200_SMPL	0x15

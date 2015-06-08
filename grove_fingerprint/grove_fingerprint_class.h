@@ -8,6 +8,7 @@
 
 //GROVE_NAME        "Grove_Fingerprint"
 //IF_TYPE           UART
+//IMAGE_URL         http://www.seeedstudio.com/wiki/File:Print_Sensor.jpg
 
 class GroveFingerprint
 {
@@ -23,7 +24,6 @@ public:
 	bool emptyDatabase(uint8_t *res);
 	bool fingerFastSearch(uint8_t *res);
 	bool getTemplateCount(uint8_t *res);
-
 
 private:
     UART_T *uart;

@@ -19,9 +19,9 @@ static uint8_t data[6];
 
 
 
-void grove_temp_hum_init(IO_T *io, int pinio)
+void grove_temp_hum_init(IO_T *io, int pin)
 {
-	suli_pin_init(io, pinio, SULI_INPUT);
+	suli_pin_init(io, pin, SULI_INPUT);
 }
 
 bool grove_temp_hum_write_setup(IO_T *io, uint8_t type, uint8_t count)

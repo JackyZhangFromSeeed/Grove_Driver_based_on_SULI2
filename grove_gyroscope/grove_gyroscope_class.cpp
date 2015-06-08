@@ -22,5 +22,3 @@ bool GroveGyroscope::write_zerocalibrate(void)
 {
     return grove_gyro_zerocalibrate(this->i2c);
 }
-
-

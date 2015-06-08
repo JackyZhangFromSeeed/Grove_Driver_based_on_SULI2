@@ -8,6 +8,7 @@
 
 //GROVE_NAME        "Grove_Barometer"
 //IF_TYPE           I2C
+//IMAGE_URL         http://www.seeedstudio.com/wiki/File:Grove-Barometer.jpg
 
 class GroveBarometer
 {

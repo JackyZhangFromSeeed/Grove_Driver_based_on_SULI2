@@ -17,7 +17,3 @@ bool GroveHeartrate::read_heartrate(uint8_t *lux)
 {
     return grove_heartrate_getheartrate(this->i2c, lux);
 }
-
-
-
-

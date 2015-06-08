@@ -34,6 +34,4 @@ void grove_accelerometer_init(I2C_T *i2c, int pinsda, int pinscl);
 bool grove_accelerometer_write_setup(I2C_T *i2c);
 bool grove_accelerometer_getacceleration(I2C_T *i2c, float *ax,float *ay,float *az);
 
-
-
 #endif

@@ -3,8 +3,6 @@
 #include "suli2.h"
 #include "grove_fingerprint.h"
 
-#define CMD_LENGTH 20
-
 //local functions
 static void grove_fingerprint_writePacket(UART_T *uart, uint32_t addr, uint8_t packettype, 
 				       uint16_t len, uint8_t *packet);

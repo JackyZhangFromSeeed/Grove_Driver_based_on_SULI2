@@ -6,6 +6,8 @@
 
 #include "suli2.h"
 
+#define TSL2561_Address  (0x29<<1)       //device address
+
 #define  TSL2561_Control  0x80
 #define  TSL2561_Timing   0x81
 #define  TSL2561_Interrupt 0x86
@@ -13,8 +15,6 @@
 #define  TSL2561_Channal0H 0x8D
 #define  TSL2561_Channal1L 0x8E
 #define  TSL2561_Channal1H 0x8F
-
-#define TSL2561_Address  (0x29<<1)       //device address
 
 #define LUX_SCALE 14           // scale by 2^14
 #define RATIO_SCALE 9          // scale ratio by 2^9
@@ -46,8 +46,6 @@
 #define K8T 0x029a   // 1.3 * 2^RATIO_SCALE
 #define B8T 0x0000   // 0.000 * 2^LUX_SCALE
 #define M8T 0x0000   // 0.000 * 2^LUX_SCALE
-
-
 
 #define K1C 0x0043   // 0.130 * 2^RATIO_SCALE
 #define B1C 0x0204   // 0.0315 * 2^LUX_SCALE
