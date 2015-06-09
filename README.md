@@ -9,9 +9,7 @@ So we thought of a way to solve this problem and considering port all Grove driv
 
 Let us understand it's structure first: In a general way, user's project may include many layers like this:
 
-<center>![Alt test](http://www.seeedstudio.com/wiki/images/c/c6/Normal_Arduino_Platform.png)</center>
-
-<div style="text-align:center"><img src ="http://www.seeedstudio.com/wiki/images/c/c6/Normal_Arduino_Platform.png" /></div>
+![](http://www.seeedstudio.com/wiki/images/c/c6/Normal_Arduino_Platform.png)
 
 or this:
 
