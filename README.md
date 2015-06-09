@@ -29,23 +29,22 @@ Grove Drivers has been ported:
 ------------------------------
 
 ####I2C device
-* grove_accelerometer
-* grove_gyroscope
-* grove_compass
-* grove_barometer
+* grove_acceleromete ---- MMA7660FC
+* grove_gyroscope    ---- ITG-3200
+* grove_compass      ---- HMC5883L
+* grove_barometer    ---- BMP180
 * grove_digital_light
 * grove_heartrate
 
 ####UART device
 * grove_fingerprint
+* grove_esp8266
 
 ####Digital device
 * grove_temp_hum
 
 ####Analog device
 * grove_moisture
-
-
 
 
 ----
