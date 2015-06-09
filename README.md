@@ -11,6 +11,8 @@ Let us understand it's structure first: In a general way, user's project may inc
 
 <center>![Alt test](http://www.seeedstudio.com/wiki/images/c/c6/Normal_Arduino_Platform.png)</center>
 
+<div style="text-align:center"><img src ="http://www.seeedstudio.com/wiki/images/c/c6/Normal_Arduino_Platform.png" /></div>
+
 or this:
 
 ![](http://www.seeedstudio.com/wiki/images/8/8e/Normal_mbed_Platform.png)
